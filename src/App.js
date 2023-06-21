@@ -55,10 +55,10 @@ export default function App() {
           onDeleteTask={deleteTask}
         />
         <TaskList
-          title="Fazendo"
+          title="Realizando"
           onAddTask={addTask}
-          taskState="Fazendo"
-          tasks={tasks.filter((t) => t.state === "Fazendo")}
+          taskState="Realizando"
+          tasks={tasks.filter((t) => t.state === "Realizando")}
           onTaskUpdate={updateTask}
           onDeleteTask={deleteTask}
         />
